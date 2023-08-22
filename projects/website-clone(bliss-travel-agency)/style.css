@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display:flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;    
+}
+.logo{
+    margin: 10px;
+    width: 220px;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+    padding-top: 25px;
+}
+nav ul li a{
+    padding-right: 35px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.674);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    transition: 0s ease;
+}
+nav ul li a:hover{
+    color: #b50d0d;
+}
+.main-head{
+ padding: 30px;
+
+}
+.heading{
+    text-align: center;
+     font-family: 'Libre Franklin', sans-serif;
+     font-size: 25px;
+     font-weight: 500;
+     margin-bottom: 50px;
+     color:#74abc8 ;
+    }
+.box{
+    display: flex;
+    width: 1000px;
+    background-color: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.box h5{
+    padding: 30px;
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    word-spacing: 2px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.service{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.service img{
+    margin-bottom:10px;
+    width: 110px;
+}
+.service h4{ 
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1em;
+    color: #0e85c4;
+}
+.content{
+    display: flex;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content h4{
+    padding: 30px;
+    font-size: 1.1rem;
+    line-height: 1.6em;
+    word-spacing: 2px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+.heading-why{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 27px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: black;   
+}
+.column{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.best{
+    text-align: center;
+    cursor: pointer;
+}
+.best img{
+    width: 80px;
+    cursor: pointer;
+    margin-bottom:10px;
+} 
+
+.best h5{ 
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}
+.logos{
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+}
+footer{
+    width: 100%;
+    background-color:#f2f2f2; 
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-top:30px ;
+    padding-left: 60px;
+    
+}
+.tophead{
+    font-family: 'Libre Franklin', sans-serif;
+    padding-top : 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.connect{
+    display: grid;
+    grid-template-rows: auto ;
+}
+.contact{
+    padding:20px 0px 5px 15px ;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Libre Franklin', sans-serif;
+    cursor: pointer;
+}
+
+.footer p{
+    color: #b50d0d;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.Affiliations img{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.bank{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px; 
+    background-color: #f4f4f4;
+    border: 1px solid #d9d9d9;
+    margin-top: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.bank i{
+    cursor: pointer;
+    padding-left: 50px;
+}
+.bank h4{
+    padding-left: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Dosis', sans-serif;
+}
+.build-img{
+    width:1260px;
+    height: 150px;
+    border-bottom: 20px solid #383937;;
+}

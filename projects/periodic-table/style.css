@@ -1,0 +1,38 @@
+body{
+    border: 1px solid black;
+}
+table{
+    padding: 10px;
+}
+td{
+    border: 1px solid #14458e;
+    padding: 5px;
+    empty-cells: hide;
+}
+.nonemetal{
+    background-color: rgba(255,171,145,255);
+}
+.alkaline{
+    background-color: rgba(255,204,128,255);
+}
+.alkali{
+    background-color: rgba(255,224,178,255);
+}
+.rare-earth{
+    background-color: #e7ed9b;
+}
+.actinoid{
+    background-color: rgba(178,229,251,255);
+}
+.transition-metal{    
+    background-color:rgba(210,197,233,255);
+}
+.other-metals{
+    background-color: rgba(255,205,211,255);
+}
+.halogens{
+    background-color: rgba(166,214,168,255);
+}
+.noble-gases{
+    background-color: rgba(255,255,255,255);
+}
